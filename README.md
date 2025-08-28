@@ -2,25 +2,40 @@
 
 This repository contains the source code for the paper "Distance-decaying core decomposition in graphs".
 
-Below, we provide an overview of the contents in each folder. For more details, please refer to each folder's README.
+Below, we provide an overview of the contents in each folder. For more details, please refer to each folder's README file.
 
-## Folder `running_time`
+## Folder `Q1_Q2_running_time`
 
-## Folder `scalability`
+This folder contains the source code for evaluating the running time of different algorithms for distance-decaying core decomposition.
 
-## Folder `hyperparam`
+- Corresponding parts in the paper: Section 6.2 (Q1) and Section 6.3 (Q2)
 
-## Folder `influence`
+## Folder `Q3_E1_influence`
 
-## Folder `dense_subgraph`
+This folder contains the source code for evaluating different core models for identifying influential nodes.
 
-## Folder `landmark`
+- Corresponding parts in the paper: Section 6.4 (Q3-E1)
 
-## Folder `case_study`
+## Folder `Q3_E2_landmark`
 
-## Folder `khcore_code`
+This folder contains the source code for evaluating different core models for selecting shortest-path landmarks.
 
-This folder contains the source code for distance-generalized $(k,h)$-core decomposition.
+- Corresponding parts in the paper: Section 6.4 (Q3-E2)
 
-- The source code is cloned from [the official repository](https://github.com/BITDataScience/khcore).
-- **Reference:** Dai et al. "Scaling up distance-generalized core decomposition." CIKM'21
+## Folder `Q3_E3_dense_subgraph`
+
+This folder contains the source code for evaluating different core models for detecting planted dense subgraphs.
+
+- Corresponding parts in the paper: Section 6.4 (Q3-E3)
+
+## Folder `Q4_scalability`
+
+This folder contains the source code for evaluating how the running time of our algorithm scales with the size of the graph.
+
+- Corresponding parts in the paper: Section 6.5 (Q4)
+
+## Folder `Q5_hyperparam`
+
+This folder contains the source code for evaluating how the choices of hyperparameters affect the performance of our algorithm.
+
+- Corresponding parts in the paper: Section 6.6 (Q5)
