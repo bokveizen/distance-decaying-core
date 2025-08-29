@@ -16,7 +16,7 @@ k_local=2
 k_list=(10000 20000 40000 80000 160000 320000 640000)
 
 p_input="subgraphs/${dataset}"
-init_node=42
+init_node=$1
 
 mkdir -p "${p_output}/${dataset}"
 mkdir -p "${p_log}/${dataset}"

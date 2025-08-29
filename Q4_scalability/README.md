@@ -21,14 +21,14 @@ This folder contains the source code for evaluating how the running time of our 
 ### 1. Generate subgraphs using snowball sampling
 
 ```bash
-bash generate_lastfm.sh
+bash generate_lastfm.sh 42
 ```
 
 ### 2. Run the computational code
 
 ```bash
-bash run_lastfm_ours.sh
-bash run_lastfm_naive.sh
+bash run_lastfm_ours.sh 42
+bash run_lastfm_naive.sh 42
 ```
 
 ### 3. Read the results
