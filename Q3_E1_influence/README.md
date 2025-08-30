@@ -10,7 +10,7 @@ This folder contains the source code for evaluating different core models for id
     - The source code is cloned from [the official repository](https://github.com/BITDataScience/khcore).
     - **Reference:** Dai et al. "Scaling up distance-generalized core decomposition." CIKM'21
   - `main_ours.cpp`: the proposed algorithm for distance-decaying core decomposition
-  - `influence_{IC/LT/SIR}_each_node.cpp`: simulation of IC/LT/SIR model
+  - `influence_{IC/SIR}_each_node.cpp`: simulation of IC/SIR model
   - `read_res.py`: result analysis
   - `Makefile`: the Makefile for compiling the code
   - `run_khcore.sh`: the script for running the distance-generalized core decomposition
