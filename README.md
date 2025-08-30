@@ -1,6 +1,6 @@
-# Distance-decaying core decomposition in graphs
+# Distance-decaying core decomposition
 
-This repository contains the source code for the paper "Distance-decaying core decomposition in graphs".
+This repository contains the source code for the paper "Distance-decaying core decomposition".
 
 Below, we provide an overview of the contents in each folder. For more details, please refer to each folder's README file.
 
