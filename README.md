@@ -39,3 +39,10 @@ This folder contains the source code for evaluating how the running time of our 
 This folder contains the source code for evaluating how the choices of hyperparameters affect the performance of our algorithm.
 
 - Corresponding parts in the paper: Section 6.6 (Q5)
+
+## Folder `data`
+
+This folder contains the datasets used in the experiments.
+
+- **Data source:** [Network Data Repository](https://networkrepository.com/)
+- **Reference:** Rossi and Ahmed. "The network data repository with interactive graph analytics and visualization." AAAI'15
