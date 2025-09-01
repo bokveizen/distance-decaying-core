@@ -4,7 +4,7 @@
 
 This folder contains the source code for evaluating different core models for selecting shortest-path landmarks.
 
-- Corresponding parts in the paper: Section 6.4 (Q3-E2)
+- Corresponding parts in the paper: Section 6.4 (Q3-E3)
 - Source code files:
   - `KHCore.cpp` and `KHCore.h`: computational algorithm for distance-generalized core decomposition
     - The source code is cloned from [the official repository](https://github.com/BITDataScience/khcore).

@@ -16,15 +16,15 @@ Below, we provide an overview of the contents in each folder. For more details, 
 
 - Corresponding parts in the paper: Section 6.4 (Q3-E1)
 
-## Folder `Q3_E2_landmark`
+## Folder `Q3_E2_dense_subgraph`
 
-[This folder](./Q3_E2_landmark) contains the source code for evaluating different core models for selecting shortest-path landmarks.
+[This folder](./Q3_E2_dense_subgraph) contains the source code for evaluating different core models for detecting planted dense subgraphs.
 
 - Corresponding parts in the paper: Section 6.4 (Q3-E2)
 
-## Folder `Q3_E3_dense_subgraph`
+## Folder `Q3_E3_landmark`
 
-[This folder](./Q3_E3_dense_subgraph) contains the source code for evaluating different core models for detecting planted dense subgraphs.
+[This folder](./Q3_E3_landmark) contains the source code for evaluating different core models for selecting shortest-path landmarks.
 
 - Corresponding parts in the paper: Section 6.4 (Q3-E3)
 
