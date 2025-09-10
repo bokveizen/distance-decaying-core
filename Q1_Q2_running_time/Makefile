@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++17 -O3 -fopenmp
 NOPRFLAGS = -std=c++17 -O3
 BUILD_DIR = build
-TARGETS = $(BUILD_DIR)/main_naive $(BUILD_DIR)/main_ours $(BUILD_DIR)/main_noGF $(BUILD_DIR)/main_noLF $(BUILD_DIR)/main_noFB
+TARGETS = $(BUILD_DIR)/main_naive $(BUILD_DIR)/main_ours $(BUILD_DIR)/main_noGF $(BUILD_DIR)/main_noLF $(BUILD_DIR)/main_noFB $(BUILD_DIR)/main_noPR
 
 all: $(BUILD_DIR) $(TARGETS)
 
