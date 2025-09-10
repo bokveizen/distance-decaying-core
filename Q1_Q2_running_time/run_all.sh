@@ -39,11 +39,12 @@ for dataset in ${dataset_list[@]}; do
 
     echo "$dataset start"
 
-    ./build/main_naive -i "$network" -o "${p_output}/${dataset}/naive.txt" -d "poly" -p 1.0 > "${p_log}/${dataset}/naive.log"
-    ./build/main_ours -i "$network" -o "${p_output}/${dataset}/ours.txt" -d "poly" -p 1.0 > "${p_log}/${dataset}/ours.log"
-    ./build/main_noGF -i "$network" -o "${p_output}/${dataset}/noGF.txt" -d "poly" -p 1.0 > "${p_log}/${dataset}/noGF.log"
-    ./build/main_noLF -i "$network" -o "${p_output}/${dataset}/noLF.txt" -d "poly" -p 1.0 > "${p_log}/${dataset}/noLF.log"
-    ./build/main_noFB -i "$network" -o "${p_output}/${dataset}/noFB.txt" -d "poly" -p 1.0 > "${p_log}/${dataset}/noFB.log"    
+    ./build/main_naive -i "$network" -o "${p_output}/${dataset}/naive.txt" -d $decay_type -p $decay_param > "${p_log}/${dataset}/naive.log"
+    ./build/main_ours -i "$network" -o "${p_output}/${dataset}/ours.txt" -d $decay_type -p $decay_param > "${p_log}/${dataset}/ours.log"
+    ./build/main_noGF -i "$network" -o "${p_output}/${dataset}/noGF.txt" -d $decay_type -p $decay_param > "${p_log}/${dataset}/noGF.log"
+    ./build/main_noLF -i "$network" -o "${p_output}/${dataset}/noLF.txt" -d $decay_type -p $decay_param > "${p_log}/${dataset}/noLF.log"
+    ./build/main_noFB -i "$network" -o "${p_output}/${dataset}/noFB.txt" -d $decay_type -p $decay_param > "${p_log}/${dataset}/noFB.log"
+    ./build/main_noPR -i "$network" -o "${p_output}/${dataset}/noPR.txt" -d $decay_type -p $decay_param > "${p_log}/${dataset}/noPR.log"
     
     # print the dataset name
     echo "$dataset done"
